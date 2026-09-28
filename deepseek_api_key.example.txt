@@ -1,0 +1,1 @@
+Paste your own DeepSeek API key here; never commit the real key.

@@ -1,0 +1,18 @@
+{
+  "version": "2.2.10-compatible",
+  "full_package": {
+    "local_path": "C:\\Users\\qqq\\Desktop\\常客AI2.2-完整安装包-本地模型和源码.zip",
+    "bytes": 3361625992,
+    "sha256": "d157491f976759352c74fafec1f04bfbcad53b0834c66dc9180701d0e8e97543"
+  },
+  "core_sha256": "26828d388f6a5b2b8b1070cf1742047e22ec054bb378d084555b9f844e0f9dc1",
+  "models": [
+    "Systran/faster-whisper-small (bundled)",
+    "mobiuslabsgmbh/faster-whisper-large-v3-turbo (bundled)"
+  ],
+  "notes": [
+    "核心启动时自动检测 CUDA；不可用时回退 CPU/int8。",
+    "Whisper 固定单模型实例，避免 asr_parallel=10 导致内存耗尽。",
+    "仓库不含密钥、模型权重或运行库。"
+  ]
+}
